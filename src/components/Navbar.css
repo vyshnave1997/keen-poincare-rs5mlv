@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed; /* Fix Navbar to the top of the page */
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #333; /* Navbar background color */
+  color: #fff; /* Navbar text color */
+  z-index: 1000; /* Ensure Navbar is above other content */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+}

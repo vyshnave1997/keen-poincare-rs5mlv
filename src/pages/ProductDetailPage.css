@@ -1,0 +1,32 @@
+.product-detail-page {
+  padding: 20px;
+}
+
+.product-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-detail-image {
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.product-detail-info {
+  text-align: center;
+}
+
+.product-detail-info h1 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.product-detail-info p {
+  margin: 5px 0;
+  color: #666;
+}

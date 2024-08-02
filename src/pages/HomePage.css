@@ -1,0 +1,39 @@
+.home-page {
+  padding: 0; /* Remove padding to ensure full-screen display */
+  margin: 0;
+  overflow: hidden; /* Prevent scrolling overflow */
+}
+
+.slider-container {
+  width: 100vw; /* Full viewport width */
+  height: 800px; /* Full viewport height */
+  position: relative;
+}
+
+.slider-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content */
+  height: 100%; /* Full height of container */
+  width: 100%; /* Full width of container */
+  position: relative;
+}
+
+.slider-text {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  z-index: 1; /* Ensure text is above the image */
+  max-width: 400px; /* Adjust text box width */
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the area */
+}
