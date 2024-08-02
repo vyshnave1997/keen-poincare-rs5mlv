@@ -14,7 +14,7 @@ A simple React application that displays products with the option to filter by c
 - [Acknowledgements](#acknowledgements)
 
 ## Demo
-You can check out a live demo of the project [here](https://example.com). *(Replace with actual link)*
+
 
 ## Features
 - Display products with images, ratings, and prices.
